@@ -54,4 +54,31 @@ nav ul li a:hover{
     font-weight: bold;
     padding: 10px 25px;
     border-radius: 20px;
+    transition: transform .4s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+h1{
+    color: aliceblue;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+
+}
+h3{
+    color: aliceblue;
+    font-size: 25px;
+    margin-bottom: 50px;
+
+}
+h4{
+    color: aliceblue;
+    letter-spacing: 2px;
+    font-size: 20px;
 }
