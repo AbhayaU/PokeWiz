@@ -8,7 +8,7 @@
     height: 100vh;
     width: 100%;
     background-color: black;
-    background-image: url(../img/);
+    background-image: url(https://t3.ftcdn.net/jpg/02/81/38/84/360_F_281388405_buIRXnnd0nOlNYbLe4MrAKmNNLydzgsQ.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -81,4 +81,100 @@ h4{
     color: aliceblue;
     letter-spacing: 2px;
     font-size: 20px;
+}
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 30px;
+
+
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+
+}
+.jo{
+    color: #f9004d;
+}
+.about-us{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black;
+}
+.about-text{
+    width: 550px;
+
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.about-text h2{
+    color: aliceblue;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+}
+.about-text p{
+    color: aliceblue;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.about-text h5{
+    color: #f9004d;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+
+}
+.service{
+    background-color: black;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2 {
+    color: aliceblue;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    color: #f9004d;
+}
+.card{
+    height: 365px;
+    width: 335px;
 }
